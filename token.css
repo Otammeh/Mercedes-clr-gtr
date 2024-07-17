@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#intro {
+    background: #f4f4f4;
+    background: url('images/grt.jpg') no-repeat center center/cover;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#about {
+    background-color: white;
+    color: #333;
+    padding: 40px 20px;
+}
+
+#about p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+#contact {
+    background-color: #282c34;
+    color: white;
+    padding: 40px 20px;
+}
+
+#contact a {
+    margin: 0 10px;
+    font-size: 35px;
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: rgb(90, 90, 231);
+}
+
+header,
+section {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 18px;
+    }
+
+    nav .logo {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    #contact a {
+        font-size: 30px;
+        padding: 5px 2px;
+    }
+}
