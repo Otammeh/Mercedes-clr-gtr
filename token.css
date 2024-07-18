@@ -39,6 +39,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    opacity: 0.8;
 }
 
 #about {
@@ -50,6 +51,34 @@ section {
 #about p {
     font-size: 17px;
     line-height: 25px;
+}
+
+.buy-steps {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 1.1em;
+}
+
+.buy-steps li {
+    margin: 10px 0;
+}
+
+.buy-steps a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.buy-steps a:hover {
+    text-decoration: underline;
+}
+
+.tokenomics-details {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.tokenomics-details p {
+    margin: 10px 0;
 }
 
 #contact {
